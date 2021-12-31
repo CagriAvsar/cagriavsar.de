@@ -1,0 +1,23 @@
+.slide-show-container {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.img-slideshow {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    animation: zoomImg 8s ease-in-out;
+}
+
+@keyframes zoomImg {
+    from {
+        transform: scale(1);
+        opacity: 1;
+    }
+    to {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
