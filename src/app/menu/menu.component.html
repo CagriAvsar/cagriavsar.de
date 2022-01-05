@@ -1,9 +1,11 @@
-<header>
-    <img src="assets/imgs/logo.png" alt="Logo">
+<header [class.headerDark]="darkMode">
+
+
+    <img routerLink="" src="assets/imgs/logo.png" alt="Logo">
     <nav>
-        <a href="#">Home</a>
+        <a routerLink="">Home</a>
         <a href="#">Cirriculum</a>
-        <a href="#">Projekte</a>
-        <a href="#">Impressum</a>
+        <a href="#">Projects</a>
+        <a routerLink="/imprint">Imprint</a>
     </nav>
 </header>
