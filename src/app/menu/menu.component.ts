@@ -7,10 +7,12 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
+  @Input() darkMode = true;
+  
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  @Input() darkMode = true;
+  
 }

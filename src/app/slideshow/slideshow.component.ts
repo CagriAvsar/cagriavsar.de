@@ -11,7 +11,7 @@ export class SlideshowComponent implements OnInit {
   headlines =[
     'Open the door to the success . . .',
     'Work hard . . .',
-    'Never ending Way to be the best Developer !'
+    'Never ending Way to become the best Developer !'
   ];
 
   currentImage = 0;
